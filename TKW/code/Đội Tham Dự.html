@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Lịch Thi Đấu Champions League 2023/24</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                box-sizing: border-box;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+            header{
+                background-color: #4caf50;
+                color: white;
+                padding: 1;
+                text-align: left;
+                font-size: 20px;
+                margin: 0;
+            }
+            .button-container{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 20px;
+                background-color: rgba(169, 169, 169, 0.521);
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+            }
+            .button{
+                padding: 10px 20px;
+                color: aqua;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            .scroll-container{
+                width: 890px;
+                height: 500px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                overflow: auto;
+                background-color: #f9f9f9;
+                margin-top: 20px;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                padding: 8px;
+                text-align: left;
+            }
+            .stt{
+                width: 15%;
+                text-align: center;
+                height: 30px;
+            }
+            .logo{
+                width: 25%;
+                text-align: center;
+            }
+            .tenclb{
+                width: 30%;
+                text-align: center;
+            }
+            .hlv{
+                width: 30%;
+                text-align: center;
+            }
+            b{
+                font-weight: 800;
+            }
+            footer{
+                padding: 1;
+                text-align: left;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        </style>
+        <script>
+            function DoiTD(){
+                window.location.href = "Đội Tham Dự.html";
+            }
+            function VongBang(){
+                window.location.href = "Vòng Bảng.html";
+            }
+            function VongPlo(){
+                window.location.href = "Vòng Play-off.html";
+            }
+            function Thongke(){
+                window.location.href = "Thống Kê.html";
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>THETHAOQBET.vn</h1>
+        </header>
+        <main style="background-color: #f2f2f2;">
+            <table>
+                <tr>
+                    <td style="width: 30%; text-align: center;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/338px-UEFA_Champions_League.svg.png" width="150" height="110" alt="logo">
+                    </td>
+                    <td style="width: 70%;">
+                        <h2>CUP C1</h2>
+                        <h3>Khu Vực: <b>Châu Âu</b></h3>
+                        <h3>Mùa Giải: <b>2023/2024</b></h3>
+                    </td>
+                </tr>
+            </table>
+            <div class="button-container">
+                    <button onclick="DoiTD()" style="font-size: 20px; background-color: antiquewhite;"><strong>Đội Tham Dự</strong></a>
+                    <button onclick="VongBang()" style="font-size: 20px;"><strong>Vòng bảng</strong></a>
+                    <button onclick="VongPlo()" style="font-size: 20px;"><strong>Vòng Play-off</strong></a>
+                    <button onclick="Thongke()" style="font-size: 20px;"><strong>Thống Kê</strong></a>
+            </div>
+            <div class="scroll-container">
+                <h2 style="color: red;">CÚP C1 - ĐỘI THAM DỰ</h2>
+                <table>
+                    <tr style="background-color: aquamarine;">
+                        <th class="stt"><strong><b>STT</b></strong></th>
+                        <th class="logo" style="text-align: left;"><strong><b>Logo</b></strong></th>
+                        <th class="tenclb" style="text-align: left;"><strong><b>Tên CLB</b></strong></th>
+                        <th class="hlv" style="text-align: left;"><strong><b>HLV</b></strong></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">1</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/285px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png" width="50px" height="50px" alt="BayernMunchen"></th>
+                        <th><p>Bayern Munich</p></th>
+                        <th><p>Thomas Tuchel</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">2</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/26/FC_Copenhagen_logo.svg/278px-FC_Copenhagen_logo.svg.png" width="50px" height="50px" alt="FC Copenhagen"></th>
+                        <th><p>FC Copenhagen</p></th>
+                        <th><p>Jacob Neestrup</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">3</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Galatasaray_4_Sterne_Logo.svg/210px-Galatasaray_4_Sterne_Logo.svg.png" width="45px" height="50px" alt="Galatasaray"></th>
+                        <th><p>Galatasaray</p></th>
+                        <th><p>Okan Buruk</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/300px-Manchester_United_FC_crest.svg.png" width="50px" height="50px" alt="Manchester Utd"></th>
+                        <th><p>Manchester Utd</p></th>
+                        <th><p>Erik ten Hag</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">5</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/270px-Arsenal_FC.svg.png" width="50px" height="50px" alt="Arsenal"></th>
+                        <th><p>Arsenal</p></th>
+                        <th><p>Mikel Arteta</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">6</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/PSV_Eindhoven.svg/255px-PSV_Eindhoven.svg.png" width="55px" height="50px" alt="PSV"></th>
+                        <th><p>PSV</p></th>
+                        <th><p>Peter Bosz</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">7</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/RC_Lens_logo.svg/219px-RC_Lens_logo.svg.png" width="45px" height="50px" alt="Lens"></th>
+                        <th><p>Lens</p></th>
+                        <th><p>Franck Haise</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">8</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/225px-Sevilla_FC_logo.svg.png" width="45px" height="50px" alt="Sevilla"></th>
+                        <th><p>Sevilla</p></th>
+                        <th><p>Quique Sanchez Flores</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">9</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/240px-Real_Madrid_CF.svg.png" width="45px" height="50px" alt="Real Madrid"></th>
+                        <th><p>Real Madrid</p></th>
+                        <th><p>Carlo Ancelotti</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">10</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/SSC_Napoli_2007.svg/285px-SSC_Napoli_2007.svg.png" width="50px" height="50px" alt="Arsenal"></th>
+                        <th><p>Napoli</p></th>
+                        <th><p>Spalletti</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">11</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/79/S.C._Braga_logo.svg/240px-S.C._Braga_logo.svg.png" width="45px" height="50px" alt="Braga"></th>
+                        <th><p>Braga</p></th>
+                        <th><p>Artur Jorge</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">12</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1._FC_Union_Berlin_Logo.svg/345px-1._FC_Union_Berlin_Logo.svg.png" width="100px" height="40px" alt="Union Berlin"></th>
+                        <th><p>Union Berlin</p></th>
+                        <th><p>Urs Fischer</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">13</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/255px-Real_Sociedad_logo.svg.png" width="50px" height="50px" alt="Real Sociedad"></th>
+                        <th><p>Real Sociedad</p></th>
+                        <th><p>Imanol Alguacil</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">14</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/285px-FC_Internazionale_Milano_2021.svg.png" width="50px" height="50px" alt="Inter"></th>
+                        <th><p>Inter</p></th>
+                        <th><p>Simone Inzaghi</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">15</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/315px-SL_Benfica_logo.svg.png" width="50px" height="50px" alt="Benfica"></th>
+                        <th><p>Benfica</p></th>
+                        <th><p>Roger Schmidt</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">16</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Red_Bull_Salzburg_logo.svg/338px-FC_Red_Bull_Salzburg_logo.svg.png" width="50px" height="50px" alt="Salzburg"></th>
+                        <th><p>Salzburg</p></th>
+                        <th><p>Pep Lijnders</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">17</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/234px-Atletico_Madrid_2017_logo.svg.png" width="45px" height="50px" alt="Atl. Madrid"></th>
+                        <th><p>Atl. Madrid</p></th>
+                        <th><p>Diego Simeone</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">18</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/S.S._Lazio_badge.svg/330px-S.S._Lazio_badge.svg.png" width="50px" height="50px" alt="Lazio"></th>
+                        <th><p>Lazio</p></th>
+                        <th><p>Igor Tudor</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">19</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Feyenoord_logo_since_2009.svg/270px-Feyenoord_logo_since_2009.svg.png" width="50px" height="50px" alt="Feyenoord"></th>
+                        <th><p>Feyenoord</p></th>
+                        <th><p>Arne Slot</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">20</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Celtic_FC_crest.svg/270px-Celtic_FC_crest.svg.png" width="50px" height="50px" alt="Celtic"></th>
+                        <th><p>Celtic</p></th>
+                        <th><p>Brendan Rodgers</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">21</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/285px-Borussia_Dortmund_logo.svg.png" width="50px" height="50px" alt="Dortmund"></th>
+                        <th><p>Dortmund</p></th>
+                        <th><p>Edin Terzic</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">22</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/285px-Paris_Saint-Germain_F.C..svg.png" width="50px" height="50px" alt="PSG"></th>
+                        <th><p>PSG</p></th>
+                        <th><p>Jocelyn Precheur</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">23</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/198px-Logo_of_AC_Milan.svg.png" width="50px" height="50px" alt="AC Milan"></th>
+                        <th><p>AC Milan</p></th>
+                        <th><p>Stefano Pioli</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">24</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/300px-Newcastle_United_Logo.svg.png" width="50px" height="50px" alt="Newcastle"></th>
+                        <th><p>Newcastle</p></th>
+                        <th><p>Eddie Howe</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">25</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/285px-Manchester_City_FC_badge.svg.png" width="50px" height="50px" alt="Manchester City"></th>
+                        <th><p>Manchester City</p></th>
+                        <th><p>Pep Guardiola</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">26</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/428px-RB_Leipzig_2014_logo.svg.png" width="60Vlapx" height="50px" alt="RB Leipzig"></th>
+                        <th><p>RB Leipzig</p></th>
+                        <th><p>Marco Rose</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">27</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/BSC_Young_Boys_logo.svg/255px-BSC_Young_Boys_logo.svg.png" width="50px" height="50px" alt="Young Boys"></th>
+                        <th><p>Young Boys</p></th>
+                        <th><p>Raphael Wicky</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">28</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Grb-fk-crvena-zvezda.svg/225px-Grb-fk-crvena-zvezda.svg.png" width="40px" height="50px" alt="Crvena Zvezda"></th>
+                        <th><p>Crvena Zvezda</p></th>
+                        <th><p>Vladan Milojevic</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">29</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/300px-FC_Barcelona_%28crest%29.svg.png" width="50px" height="50px" alt="Barcelona"></th>
+                        <th><p>Barcelona</p></th>
+                        <th><p>Xavi</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">30</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/255px-FC_Porto.svg.png" width="45px" height="50px" alt="FC Porto"></th>
+                        <th><p>FC Porto</p></th>
+                        <th><p>Sergio Conceicao</p></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">31</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/FC_Shakhtar_Donetsk.svg/225px-FC_Shakhtar_Donetsk.svg.png" width="40px" height="50px" alt="Shakhtar Donetsk"></th>
+                        <th><p>Shakhtar Donetsk</p></th>
+                        <th><p>Marino Pusic</p></th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">32</th>
+                        <th><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Royal_Antwerp_Football_Club_logo.svg/195px-Royal_Antwerp_Football_Club_logo.svg.png" width="40px" height="50px" alt="Antwerp"></th>
+                        <th><p>Antwerp</p></th>
+                        <th><p>Mark van Bommel</p></th>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table style="background-color: #efefee; margin-top: 20px;">
+                    <tr>
+                        <th style="width: 40%; text-align: center;">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/338px-UEFA_Champions_League.svg.png" width="200" height="150" style="margin-left: 20px;" alt="logo">
+                        </th>
+                        <th rowspan="2" style="width: 60%;">
+                            <p><b>UEFA Champions League</b> (viết tắt là <b>UCL</b>, còn được biết đến với tên gọi <b>Cúp C1 châu Âu</b>) là một giải đấu bóng đá cấp câu lạc bộ thường niên được tổ chức bởi Liên đoàn bóng đá châu Âu (UEFA) dành cho các câu lạc bộ có thứ hạng cao tại các giải vô địch quốc gia châu Âu. Đây là một trong những giải đấu bóng đá danh giá nhất trên thế giới và là giải đấu cấp câu lạc bộ danh giá nhất của bóng đá châu Âu, bao gồm các nhà vô địch của các giải vô địch quốc gia (đối với một số quốc gia còn có thêm một hoặc nhiều đội á quân) của các hiệp hội quốc gia.</p>
+                            <p>Được giới thiệu vào năm 1955 với tên gọi <b>European Champion Clubs' Cup</b>, giải ban đầu được diễn ra theo thể thức loại trực tiếp và chỉ dành cho các câu lạc bộ vô địch của mỗi giải vô địch quốc gia. Giải đấu lấy tên gọi hiện tại vào năm 1992, bổ sung thêm một vòng bảng thi đấu vòng tròn hai lượt và cho phép nhiều câu lạc bộ từ cùng một quốc gia tham dự. Giải kể từ đó được mở rộng, và trong khi một số giải vô địch quốc gia của châu Âu vẫn chỉ có thể cho phép nhà vô địch của họ tham dự, những giải đấu hàng đầu giờ được phép cử đến bốn đội. Các câu lạc bộ xếp ngay sau ở giải vô địch quốc gia mà không lọt vào Champions League được phép tham dự giải hạng hai UEFA Europa League, và kể từ năm 2021, các đội không đủ điều kiện tham dự UEFA Europa League sẽ lọt vào giải hạng ba mới có tên gọi là UEFA Europa Conference League.</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <table border="1px">
+                                <tr>
+                                    <th><b>Cơ Quan Tổ Chức</b></th>
+                                    <th>UEFA</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Thành Lập</b></th>
+                                    <th>1955; 69 năm trước<br>(đổi tên vào năm 1992)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Khu Vực</b></th>
+                                    <th>Châu Âu</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Số Đội</b></th>
+                                    <th>32 đội(Vòng bảng)<br> 79,80 hoặc 81(tổng cộng)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Vòng Loại Cho</b></th>
+                                    <th>UEFA Super Cup<br> FIFA Clup World Cup</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Giải Đấu Liên Quan</b></th>
+                                    <th>UEFA Europa League(hạng hai)<br> Europa Conference League(hạng ba)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Đội vô địch hiện tại</b></th>
+                                    <th>Manchester City (lần thứ 1)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Câu lạc bộ thành công nhất</b></th>
+                                    <th>Real Madrid (14 lần)</th>
+                                </tr>
+                            </table>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <h1 style="background-color: #4caf50;">THETHAOQBET.vn</h1>
+            <h4>Người chịu trách nhiệm nội dung: <b>Nguyễn Quân</b><br>
+            <b>Hotline:</b> 0327718605<br>
+            <b>Email:</b>nquan09202004@gmail.com</h4>
+        </footer>
+    </body>
+</html>

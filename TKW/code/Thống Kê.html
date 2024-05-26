@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Lịch Thi Đấu Champions League 2023/24</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                box-sizing: border-box;
+                margin-left: 20%;
+                margin-right: 20%;
+            }
+            header{
+                background-color: #4caf50;
+                color: white;
+                padding: 1;
+                text-align: left;
+                font-size: 20px;
+                margin: 0;
+            }
+            .button-container{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+                margin-top: 20px;
+                background-color: rgba(169, 169, 169, 0.521);
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+            }
+            .button{
+                padding: 10px 20px;
+                color: aqua;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+            .scroll-container{
+                width: 890px;
+                height: 500px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                overflow: auto;
+                background-color: #f9f9f9;
+                margin-top: 20px;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                padding: 8px;
+                text-align: left;
+            }
+            .hang{
+                width: 15%;
+                text-align: center;
+                height: 30px;
+            }
+            .tct{
+                width: 55%;
+                text-align: center;
+            }
+            .bt{
+                width: 15%;
+                text-align: center;
+            }
+            .kt{
+                width: 15%;
+                text-align: center;
+            }
+            b{
+                font-weight: 800;
+            }
+            footer{
+                padding: 1;
+                text-align: left;
+                font-size: 20px;
+                margin-top: 10px;
+            }
+        </style>
+        <script>
+            function DoiTD(){
+                window.location.href = "Đội Tham Dự.html";
+            }
+            function VongBang(){
+                window.location.href = "Vòng Bảng.html";
+            }
+            function VongPlo(){
+                window.location.href = "Vòng Play-off.html";
+            }
+            function Thongke(){
+                window.location.href = "Thống Kê.html";
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>THETHAOQBET.vn</h1>
+        </header>
+        <main style="background-color: #f2f2f2;">
+            <table>
+                <tr>
+                    <td style="width: 30%; text-align: center;">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/338px-UEFA_Champions_League.svg.png" width="150" height="110" alt="logo">
+                    </td>
+                    <td style="width: 70%;">
+                        <h2>CUP C1</h2>
+                        <h3>Khu Vực: <b>Châu Âu</b></h3>
+                        <h3>Mùa Giải: <b>2023/2024</b></h3>
+                    </td>
+                </tr>
+            </table>
+            <div class="button-container">
+                    <button onclick="DoiTD()" style="font-size: 20px;"><strong>Đội Tham Dự</strong></a>
+                    <button onclick="VongBang()" style="font-size: 20px;"><strong>Vòng bảng</strong></a>
+                    <button onclick="VongPlo()" style="font-size: 20px;"><strong>Vòng Play-off</strong></a>
+                    <button onclick="Thongke()" style="font-size: 20px; background-color: antiquewhite;"><strong>Thống Kê</strong></a>
+            </div>
+            <div class="scroll-container">
+                <h2 style="color: red;">CÚP C1 - THỐNG KÊ</h2>
+                <table>
+                    <tr style="background-color: aquamarine;">
+                        <th class="hang"><strong><b>#</b></strong></th>
+                        <th class="tct" style="text-align: center;"><strong><b>Tên Cầu Thủ</b></strong></th>
+                        <th class="bt" style="text-align: center;"><strong><b>Bàn Thắng</b></strong></th>
+                        <th class="kt" style="text-align: center;"><strong><b>Kiến tạo</b></strong></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">1</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/6NBw9iCa-2qbpW8UO.png" alt="Frederiksberg A.(KLA)">
+                                    </th>
+                                    <th style="text-align: left; width: 70%;">Frederiksberg A.(KLA)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">6</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/jH8hOwxS-zD6J1oF5.png" alt="Pierrot F.(MAC)">
+                                    </th>
+                                    <th>Pierrot F.(MAC)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">5</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/QwDCF3Cr-jeu3V2rS.png" alt="Gunnlaugsson H.(BRE)">
+                                    </th>
+                                    <th>Gunnlaugsson H.(BRE)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">5</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/2TPtAZFG-lfBJ3ktS.png" alt="Haaland E.(MCI)">
+                                    </th>
+                                    <th>Haaland E.(MCI)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">5</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/fXDocsWg-dMJWRMCr.png" alt="Xhixha R.(QAR)">
+                                    </th>
+                                    <th>Xhixha R.(QAR)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">5</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/8Y4RciHG-h8qo98yT.png" alt="Griezmann A.(MAD)">
+                                    </th>
+                                    <th>Griezmann A.(MAD)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">5</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/QaWKckf5-p8ooVAzA.png" alt="Morata A.(MAD)">
+                                    </th>
+                                    <th>Morata A.(MAD)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">5</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/WMYTnfYg-lAPw0bAa.png" alt="Hojlund R.(MNU)">
+                                    </th>
+                                    <th>Hojlund R.(MNU)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">5</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">3</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/Sz5gw7GG-zkY5bGyq.png" alt="Galeno(FCB)">
+                                    </th>
+                                    <th>Galeno(FCB)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">4</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">3</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/vXwPHlh5-CKU4CQXE.png" alt="Kane H,(BAY)">
+                                    </th>
+                                    <th>Kane H,(BAY)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">3</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">3</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/Ag1iqnCa-CjL5kDat.png" alt="Bellingham J.(RMA)">
+                                    </th>
+                                    <th>Bellingham J.(RMA)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">3</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">3</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/bNB83oil-dxAmIAaq.png" alt="Gabriel Jesus(ARS)">
+                                    </th>
+                                    <th>Gabriel Jesus(ARS)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">2</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">3</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/IidHbScM-GUOR6BWn.png" alt="Alvarez J.(MIC)">
+                                    </th>
+                                    <th>Alvarez J.(MIC)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">3</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/lfVq5XEa-AmSC9HxQ.png" alt="Evanilson(FCB)">
+                                    </th>
+                                    <th>Evanilson(FCB)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">3</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/E7PDmGg5-SfFRxGkH.png" alt="Sikan D.(SHA)">
+                                    </th>
+                                    <th>Sikan D.(SHA)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/G6xJA6wS-KEJYxAk3.png" alt="Openda L.(LEI)">
+                                    </th>
+                                    <th>Openda L.(LEI)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">4</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/pCHmmTYA-GxPHNWyM.png" alt="Saka B.(ARS)">
+                                    </th>
+                                    <th>Saka B.(ARS)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">4</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/2BME03h5-IZOuC1jJ.png" alt="Rodrygo(RMA)">
+                                    </th>
+                                    <th>Rodrygo(RMA)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">2</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/I7rFNVxS-xvQN7iHt.png" alt="Foden P.(MCI)">
+                                    </th>
+                                    <th>Foden P.(MCI)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">2</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">2</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/l69HPNdM-vm69TUxr.png" alt="Oskasson O.(COP)">
+                                    </th>
+                                    <th>Oskasson O.(COP)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/tOjbLEWg-AFbJFNVd.png" alt="Larsson J.(COP)">
+                                    </th>
+                                    <th>Larsson J.(COP)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/CABC5IYg-OC1snqtA.png" alt="Elsnik T. M.(LJU)">
+                                    </th>
+                                    <th>Elsnik T. M.(LJU)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/A13MZvWg-YBC21CX5.png" alt="Svanthorsson J.(BRE)">
+                                    </th>
+                                    <th>Svanthorsson J.(BRE)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/fLyHPW9r-p0TgvuMN.png" alt="Mendez B.(RSO)">
+                                    </th>
+                                    <th>Mendez B.(RSO)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/C80AlnYg-OKDqYmQo.png" alt="Torres F.(BAR)">
+                                    </th>
+                                    <th>Torres F.(BAR)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/04weaWcM-4dOFNX7i.png" alt="Lerager L.(COP)">
+                                    </th>
+                                    <th>Lerager L.(COP)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/4zuySQYg-4MLZpckr.png" alt="Joao Felix(BAR)">
+                                    </th>
+                                    <th>Joao Felix(BAR)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">1</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/pYb5RcyB-AJCnzJ3N.png" alt="Sporar A.(PAN)">
+                                    </th>
+                                    <th>Sporar A.(PAN)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/QogstPGG-pGXIMqLn.png" alt="Talal A.(TIR)">
+                                    </th>
+                                    <th>Talal A.(TIR)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/bRFBbLEa-CCpnJM4s.png" alt="Tavernier J.(RAN)">
+                                    </th>
+                                    <th>Tavernier J.(RAN)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/zJFyBBil-SvqRn0tI.png" alt="Weiss V. jr.(SLO)">
+                                    </th>
+                                    <th>Weiss V. jr.(SLO)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/CbvpEcxS-6VTGMs3I.png" alt="Zwolinski L.(RAK)">
+                                    </th>
+                                    <th>Zwolinski L.(RAK)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/O0LN4pZg-KOM6K7oD.png" alt="Ivanusec L.(DIN)">
+                                    </th>
+                                    <th>Ivanusec L.(DIN)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/UFwgXvGG-xx7rwyYk.png" alt="Sadiq I.(HAC)">
+                                    </th>
+                                    <th>Sadiq I.(HAC)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/C2kfb8dM-MZ3dgqjr.png" alt="Mbappe K.(PAR)">
+                                    </th>
+                                    <th>Mbappe K.(PAR)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                    <tr style="background-color: rgba(169, 169, 169, 0.521);">
+                        <th style="text-align: center;">4</th>
+                        <th>
+                            <table>
+                                <tr>
+                                    <th style="width: 30%;">
+                                        <img src="https://mediares.thethao247.vn/res/image/data/vRfhN1Da-MknAd1fg.png" alt="Gomis Y.(ARI)">
+                                    </th>
+                                    <th>Gomis Y.(ARI)</th>
+                                </tr>
+                            </table>
+                        </th>
+                        <th style="text-align: center;">3</th>
+                        <th style="text-align: center;">0</th>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <table style="background-color: #efefee; margin-top: 20px;">
+                    <tr>
+                        <th style="width: 40%; text-align: center;">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/UEFA_Champions_League.svg/338px-UEFA_Champions_League.svg.png" width="200" height="150" style="margin-left: 20px;" alt="logo">
+                        </th>
+                        <th rowspan="2" style="width: 60%;">
+                            <p><b>UEFA Champions League</b> (viết tắt là <b>UCL</b>, còn được biết đến với tên gọi <b>Cúp C1 châu Âu</b>) là một giải đấu bóng đá cấp câu lạc bộ thường niên được tổ chức bởi Liên đoàn bóng đá châu Âu (UEFA) dành cho các câu lạc bộ có thứ hạng cao tại các giải vô địch quốc gia châu Âu. Đây là một trong những giải đấu bóng đá danh giá nhất trên thế giới và là giải đấu cấp câu lạc bộ danh giá nhất của bóng đá châu Âu, bao gồm các nhà vô địch của các giải vô địch quốc gia (đối với một số quốc gia còn có thêm một hoặc nhiều đội á quân) của các hiệp hội quốc gia.</p>
+                            <p>Được giới thiệu vào năm 1955 với tên gọi <b>European Champion Clubs' Cup</b>, giải ban đầu được diễn ra theo thể thức loại trực tiếp và chỉ dành cho các câu lạc bộ vô địch của mỗi giải vô địch quốc gia. Giải đấu lấy tên gọi hiện tại vào năm 1992, bổ sung thêm một vòng bảng thi đấu vòng tròn hai lượt và cho phép nhiều câu lạc bộ từ cùng một quốc gia tham dự. Giải kể từ đó được mở rộng, và trong khi một số giải vô địch quốc gia của châu Âu vẫn chỉ có thể cho phép nhà vô địch của họ tham dự, những giải đấu hàng đầu giờ được phép cử đến bốn đội. Các câu lạc bộ xếp ngay sau ở giải vô địch quốc gia mà không lọt vào Champions League được phép tham dự giải hạng hai UEFA Europa League, và kể từ năm 2021, các đội không đủ điều kiện tham dự UEFA Europa League sẽ lọt vào giải hạng ba mới có tên gọi là UEFA Europa Conference League.</p>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <table border="1px">
+                                <tr>
+                                    <th><b>Cơ Quan Tổ Chức</b></th>
+                                    <th>UEFA</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Thành Lập</b></th>
+                                    <th>1955; 69 năm trước<br>(đổi tên vào năm 1992)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Khu Vực</b></th>
+                                    <th>Châu Âu</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Số Đội</b></th>
+                                    <th>32 đội(Vòng bảng)<br> 79,80 hoặc 81(tổng cộng)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Vòng Loại Cho</b></th>
+                                    <th>UEFA Super Cup<br> FIFA Clup World Cup</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Giải Đấu Liên Quan</b></th>
+                                    <th>UEFA Europa League(hạng hai)<br> Europa Conference League(hạng ba)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Đội vô địch hiện tại</b></th>
+                                    <th>Manchester City (lần thứ 1)</th>
+                                </tr>
+                                <tr>
+                                    <th><b>Câu lạc bộ thành công nhất</b></th>
+                                    <th>Real Madrid (14 lần)</th>
+                                </tr>
+                            </table>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <h1 style="background-color: #4caf50;">THETHAOQBET.vn</h1>
+            <h4>Người chịu trách nhiệm nội dung: <b>Nguyễn Quân</b><br>
+            <b>Hotline:</b> 0327718605<br>
+            <b>Email:</b>nquan09202004@gmail.com</h4>
+        </footer>
+    </body>
+</html>
